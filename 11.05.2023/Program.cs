@@ -19,8 +19,8 @@ namespace _11._05._2023
         }
         static void task2()
         {
-            int a = Convert.ToInt32(Console.ReadLine());
-            int b = Convert.ToInt32(Console.ReadLine());
+            float a = Convert.ToSingle(Console.ReadLine());
+            float b = Convert.ToSingle(Console.ReadLine());
             Console.WriteLine(a / 100 * b);
         }
         static void task3()
